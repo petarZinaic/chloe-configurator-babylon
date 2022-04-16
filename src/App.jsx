@@ -1,10 +1,14 @@
-import './App.scss';
+import './style/App.scss';
 import ObjectWindow from './components/ObjectWindow/ObjectWindow';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="main__wrapper">
-      <ObjectWindow />
+      <Header />
+      <div className="main">
+        <ObjectWindow />
+      </div>
     </div>
   );
 }

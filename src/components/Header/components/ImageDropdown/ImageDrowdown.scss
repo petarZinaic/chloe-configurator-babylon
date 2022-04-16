@@ -1,0 +1,93 @@
+@import "../../../../style/variables";
+@import "../../../../style/mixins";
+
+.dropdown {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // justify-content: flex-start;
+    position: relative;
+    max-height: 100%;
+
+    .dropdown_btn {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 100px;
+        height: 100%;
+    }
+
+    .open_dropdown {
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-size: 2rem;
+        padding: 30px;
+        outline: none;        
+        // justify-self: flex-end;
+        // position: absolute;
+        // right: 20px;
+        z-index: 4;
+    }
+
+    img {
+        max-height: 100%;
+        max-width: 100px;
+    }
+
+    ul {
+        background-color: $background;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        list-style: none;
+        height: 0;
+        overflow-y: auto;
+        margin-top: 10px;
+        left: -20px;
+        transition: height 0.8s ease-out;
+
+        &.open {
+            border-top: 1px solid grey;
+            height: 100vh;
+        }
+        
+        li {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            border-bottom: 1px solid grey;
+            opacity: 0.3;
+
+            .selected_btn {
+                width: 100px;
+                height: 100%;
+                background-color: transparent;
+                outline: none;
+                border: none;
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+@include tablet-xl {
+
+}
+
+@include tablet-m {
+
+}
+
+@include tablet-s {
+
+}
+
+@include mobile {
+    
+}

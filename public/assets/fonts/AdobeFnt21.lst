@@ -1,0 +1,36 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/workid/Desktop/Cartella Senza titolo-1/Document fonts/AdobeFnt21.lst
+FileLength:564
+FileModTime:623600113
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Charter-Roman
+FamilyName:Charter
+StyleName:Roman
+MenuName:Charter
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Charter Roman
+WritingScript:Roman
+OutlineFileName:/Users/workid/Desktop/Cartella Senza titolo-1/Document fonts/Charter.ttc
+TTCOffset:48
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2118332
+FileModTime:623600113
+NameArray:0,Mac,4,Charter Roman
+NameArray:0,Win,1,Charter
+NameArray:0,Win,16,Charter
+%EndFont
+

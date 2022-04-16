@@ -1,0 +1,30 @@
+//Typography
+
+@font-face {
+    font-family: "Roman";
+    // src: url("./assets/fonts/Charter-Roman-01.ttf");
+}
+
+h1,h2,h3,h4,h5,h6,p,a,span {
+    font-family: "Roman", sans-serif;
+}
+
+$font-size: 18px;
+$tablet-font-size: 14px;
+$mobile-font-size: 12px;
+
+// Colors
+
+$white: #ffffff;
+$black: #000000;
+$grey: #D2D2D2;
+
+$background: $grey;
+
+// Breakpoints 
+
+$tablet-xl: 1301px;
+$tablet-m: 1025px;
+$tablet-s: 769px;
+$mobile: 600px;
+$mobile-height: 668px;

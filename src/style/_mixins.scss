@@ -1,0 +1,31 @@
+@import "./variables";
+
+@mixin tablet-xl {
+  @media (max-width: #{$tablet-xl - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet-m {
+  @media (max-width: #{$tablet-m - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet-s {
+  @media (max-width: #{$tablet-s - 1px}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile - 1px}) {
+    @content;
+  }
+}
+
+@mixin mobile-height {
+  @media (max-height: #{$mobile-height - 1px}) {
+    @content
+  }
+}
